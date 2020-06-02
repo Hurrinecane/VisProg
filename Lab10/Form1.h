@@ -102,7 +102,7 @@ namespace CppCLRWinformsProjekt {
 			this->MapSize_numericUpDown->Size = System::Drawing::Size(47, 20);
 			this->MapSize_numericUpDown->TabIndex = 0;
 			this->MapSize_numericUpDown->Value = System::Decimal(gcnew cli::array< System::Int32 >(4) { 1, 0, 0, 0 });
-			this->numericUpDown1->ValueChanged += gcnew System::EventHandler(this, &Form1::MapSize_numericUpDown_ValueChanged);
+			this->MapSize_numericUpDown->ValueChanged += gcnew System::EventHandler(this, &Form1::MapSize_numericUpDown_ValueChanged);
 			// 
 			// progressBar1
 			// 
@@ -127,7 +127,7 @@ namespace CppCLRWinformsProjekt {
 			this->MapField->Name = L"panel1";
 			this->MapField->Size = System::Drawing::Size(164, 52);
 			this->MapField->TabIndex = 2;
-			this->panel1->MouseEnter += gcnew System::EventHandler(this, &Form1::Panel2);
+			this->MapField->MouseEnter += gcnew System::EventHandler(this, &Form1::Panel2);
 			// 
 			// Start_button
 			// 
